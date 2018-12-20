@@ -1,0 +1,764 @@
+{Undefined function or variable 'boxMoments'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SOS_main', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main.m', 31)" style="font-weight:bold">SOS_main</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main.m',31,0)">line 31</a>)
+dl=boxMoments(xvars, S_bounds(:, 1), S_bounds(:, 2));
+} 
+setup
+SOS_main
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('msspoly', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/spotless/@msspoly/msspoly.m', 101)" style="font-weight:bold">msspoly</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/spotless/@msspoly/msspoly.m',101,0)">line 101</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('msspoly/diff', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/spotless/@msspoly/diff.m', 67)" style="font-weight:bold">msspoly/diff</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/spotless/@msspoly/diff.m',67,0)">line 67</a>)
+        J = msspoly([size(p,1) length(xn)],...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spotsosprog/buildSOSDecompPrimal', '/Users/OstensiblyOwen/Documents/MATLAB/spotless/spotopt/@spotsosprog/spotsosprog.m', 101)" style="font-weight:bold">spotsosprog/buildSOSDecompPrimal</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/Documents/MATLAB/spotless/spotopt/@spotsosprog/spotsosprog.m',101,0)">line 101</a>)
+            A = diff(sosCnst,decvar);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spotsosprog/minimize', '/Users/OstensiblyOwen/Documents/MATLAB/spotless/spotopt/@spotsosprog/spotsosprog.m', 474)" style="font-weight:bold">spotsosprog/minimize</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/Documents/MATLAB/spotless/spotopt/@spotsosprog/spotsosprog.m',474,0)">line 474</a>)
+                    [pr,Q{i},phi{i},y{i},basis{i},eqMultFac] = pr.buildSOSDecompPrimal(pr.sosExpr(i),@newPSD,options);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SOS_main', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main.m', 63)" style="font-weight:bold">SOS_main</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main.m',63,0)">line 63</a>)
+sol = prog.minimize(obj, @spot_mosek, options);
+} 
+SOS_main
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sortrows', '/Applications/MATLAB_R2017b.app/toolbox/matlab/datafun/sortrows.p', 58)" style="font-weight:bold">sortrows</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2017b.app/toolbox/matlab/datafun/sortrows.p',58,0)">line 58</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('unique>uniqueR2012a', '/Applications/MATLAB_R2017b.app/toolbox/matlab/ops/unique.p', 316)" style="font-weight:bold">unique>uniqueR2012a</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2017b.app/toolbox/matlab/ops/unique.p',316,0)">line 316</a>)
+            [sortA,indSortA] = sortrows(a);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('unique', '/Applications/MATLAB_R2017b.app/toolbox/matlab/ops/unique.p', 161)" style="font-weight:bold">unique</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2017b.app/toolbox/matlab/ops/unique.p',161,0)">line 161</a>)
+        [varargout{1:nlhs}] = uniqueR2012a(varargin{1},logical(flaginds(1:5)));
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('msspoly/decomp', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/spotless/@msspoly/decomp.m', 50)" style="font-weight:bold">msspoly/decomp</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/spotless/@msspoly/decomp.m',50,0)">line 50</a>)
+    [~,J,K] = unique(varpow,'rows');
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spotsosprog/buildSOSDecompPrimal', '/Users/OstensiblyOwen/Documents/MATLAB/spotless/spotopt/@spotsosprog/spotsosprog.m', 103)" style="font-weight:bold">spotsosprog/buildSOSDecompPrimal</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/Documents/MATLAB/spotless/spotopt/@spotsosprog/spotsosprog.m',103,0)">line 103</a>)
+            [var,pow,Coeff] = decomp([b A].');
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spotsosprog/minimize', '/Users/OstensiblyOwen/Documents/MATLAB/spotless/spotopt/@spotsosprog/spotsosprog.m', 474)" style="font-weight:bold">spotsosprog/minimize</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/Documents/MATLAB/spotless/spotopt/@spotsosprog/spotsosprog.m',474,0)">line 474</a>)
+                    [pr,Q{i},phi{i},y{i},basis{i},eqMultFac] = pr.buildSOSDecompPrimal(pr.sosExpr(i),@newPSD,options);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SOS_main', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main.m', 63)" style="font-weight:bold">SOS_main</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main.m',63,0)">line 63</a>)
+sol = prog.minimize(obj, @spot_mosek, options);
+} 
+open SOS_main
+SOS_vdp
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('msspoly/check_canonical', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/spotless/@msspoly/msspoly.m', 434)" style="font-weight:bold">msspoly/check_canonical</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/spotless/@msspoly/msspoly.m',434,0)">line 434</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('msspoly', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/spotless/@msspoly/msspoly.m', 110)" style="font-weight:bold">msspoly</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/spotless/@msspoly/msspoly.m',110,0)">line 110</a>)
+            [flg,emsg] = check_canonical(p);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('msspoly/mtimes', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/spotless/@msspoly/mtimes.m', 3)" style="font-weight:bold"> * </a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/spotless/@msspoly/mtimes.m',3,0)">line 3</a>)
+p2=msspoly(p2);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spotsosprog/buildSOSDecompPrimal', '/Users/OstensiblyOwen/Documents/MATLAB/spotless/spotopt/@spotsosprog/spotsosprog.m', 78)" style="font-weight:bold">spotsosprog/buildSOSDecompPrimal</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/Documents/MATLAB/spotless/spotopt/@spotsosprog/spotsosprog.m',78,0)">line 78</a>)
+            b0 = subs(expr,decvar,0*decvar);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spotsosprog/minimize', '/Users/OstensiblyOwen/Documents/MATLAB/spotless/spotopt/@spotsosprog/spotsosprog.m', 474)" style="font-weight:bold">spotsosprog/minimize</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/Documents/MATLAB/spotless/spotopt/@spotsosprog/spotsosprog.m',474,0)">line 474</a>)
+                    [pr,Q{i},phi{i},y{i},basis{i},eqMultFac] = pr.buildSOSDecompPrimal(pr.sosExpr(i),@newPSD,options);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SOS_vdp', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_vdp.m', 58)" style="font-weight:bold">SOS_vdp</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_vdp.m',58,0)">line 58</a>)
+sol = prog.minimize(obj, @spot_mosek, options);
+} 
+SOS_vdp
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spot_build_gram_basis>RandomPrune', '/Users/OstensiblyOwen/Documents/MATLAB/spotless/util/spot_build_gram_basis.m', 31)" style="font-weight:bold">spot_build_gram_basis>RandomPrune</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/Documents/MATLAB/spotless/util/spot_build_gram_basis.m',31,0)">line 31</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spot_build_gram_basis', '/Users/OstensiblyOwen/Documents/MATLAB/spotless/util/spot_build_gram_basis.m', 13)" style="font-weight:bold">spot_build_gram_basis</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/Documents/MATLAB/spotless/util/spot_build_gram_basis.m',13,0)">line 13</a>)
+    [mpow] = RandomPrune(pow,mpow,numHyperPlanes);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spotsosprog/buildGramBasis', '/Users/OstensiblyOwen/Documents/MATLAB/spotless/spotopt/@spotsosprog/spotsosprog.m', 623)" style="font-weight:bold">spotsosprog/buildGramBasis</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/Documents/MATLAB/spotless/spotopt/@spotsosprog/spotsosprog.m',623,0)">line 623</a>)
+            exponent_m = spot_build_gram_basis(pow);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spotsosprog/buildSOSDecompPrimal', '/Users/OstensiblyOwen/Documents/MATLAB/spotless/spotopt/@spotsosprog/spotsosprog.m', 95)" style="font-weight:bold">spotsosprog/buildSOSDecompPrimal</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/Documents/MATLAB/spotless/spotopt/@spotsosprog/spotsosprog.m',95,0)">line 95</a>)
+            phi = spotsosprog.buildGramBasis(expr,decvar,options);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spotsosprog/minimize', '/Users/OstensiblyOwen/Documents/MATLAB/spotless/spotopt/@spotsosprog/spotsosprog.m', 474)" style="font-weight:bold">spotsosprog/minimize</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/Documents/MATLAB/spotless/spotopt/@spotsosprog/spotsosprog.m',474,0)">line 474</a>)
+                    [pr,Q{i},phi{i},y{i},basis{i},eqMultFac] = pr.buildSOSDecompPrimal(pr.sosExpr(i),@newPSD,options);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SOS_vdp', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_vdp.m', 58)" style="font-weight:bold">SOS_vdp</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_vdp.m',58,0)">line 58</a>)
+sol = prog.minimize(obj, @spot_mosek, options);
+} 
+test_vdp
+{Struct contents reference from a non-struct array object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('test_vdp', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/test_vdp.m', 4)" style="font-weight:bold">test_vdp</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/test_vdp.m',4,0)">line 4</a>)
+X = X.reshape(X, [numel(X), 1]);
+} 
+test_vdp
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('open', '/Applications/MATLAB_R2017b.app/toolbox/matlab/general/open.m', 51)" style="font-weight:bold">open</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2017b.app/toolbox/matlab/general/open.m',51,0)">line 51</a>)
+NAME must contain a single character vector.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('test_vdp', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/test_vdp.m', 6)" style="font-weight:bold">test_vdp</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/test_vdp.m',6,0)">line 6</a>)
+th = open("vdp.mat")
+} 
+test_vdp
+
+th = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    fspotless: [1×1 msspoly]
+
+test_vdp
+{Error: Functions cannot be indexed using {} or . indexing.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('test_vdp', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/test_vdp.m', 6)" style="font-weight:bold">test_vdp</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/test_vdp.m',6,0)">line 6</a>)
+th = load('vdp.mat').fspotless;
+} 
+test_vdp
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('msspoly/dmsubs', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/spotless/@msspoly/dmsubs.m', 31)" style="font-weight:bold">msspoly/dmsubs</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/spotless/@msspoly/dmsubs.m',31,0)">line 31</a>)
+Second/Third arguments must have the same number of rows
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('test_vdp', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/test_vdp.m', 9)" style="font-weight:bold">test_vdp</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/test_vdp.m',9,0)">line 9</a>)
+Z = dmsubs(th, [vvar; nvar], [X; Y]);
+} 
+test_vdp
+test_vdp
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('msspoly/dmsubs', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/spotless/@msspoly/dmsubs.m', 19)" style="font-weight:bold">msspoly/dmsubs</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/spotless/@msspoly/dmsubs.m',19,0)">line 19</a>)
+Three arguments required.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SOS_main_smaller_roa', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m', 32)" style="font-weight:bold">SOS_main_smaller_roa</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m',32,0)">line 32</a>)
+dmsubs(hXT, [vvar, nvar, mvar])
+} 
+SOS_main_smaller_roa
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('msspoly/dmsubs', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/spotless/@msspoly/dmsubs.m', 28)" style="font-weight:bold">msspoly/dmsubs</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/spotless/@msspoly/dmsubs.m',28,0)">line 28</a>)
+Second argument must by k-by-1
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SOS_main_smaller_roa', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m', 32)" style="font-weight:bold">SOS_main_smaller_roa</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m',32,0)">line 32</a>)
+dmsubs(hXT, [vvar, nvar, mvar], pts)
+} 
+SOS_main_smaller_roa
+
+ans =
+
+   (1,1)     -2.3283e-10
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('assert')" style="font-weight:bold">assert</a>
+The condition input argument must be a scalar logical.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SOS_main_smaller_roa', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m', 33)" style="font-weight:bold">SOS_main_smaller_roa</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m',33,0)">line 33</a>)
+assert False;
+} 
+SOS_main_smaller_roa
+
+ans =
+
+   (1,1)     -2.3283e-10
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('assert')" style="font-weight:bold">assert</a>
+The condition input argument must be a scalar logical.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SOS_main_smaller_roa', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m', 33)" style="font-weight:bold">SOS_main_smaller_roa</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m',33,0)">line 33</a>)
+assert False;
+} 
+SOS_main_smaller_roa
+
+ans =
+
+   (1,1)       1.0000
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('assert')" style="font-weight:bold">assert</a>
+The condition input argument must be a scalar logical.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SOS_main_smaller_roa', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m', 33)" style="font-weight:bold">SOS_main_smaller_roa</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m',33,0)">line 33</a>)
+assert False;
+} 
+SOS_main_smaller_roa
+
+ans =
+
+   (1,1)     -2.3283e-10
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('assert')" style="font-weight:bold">assert</a>
+The condition input argument must be a scalar logical.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SOS_main_smaller_roa', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m', 33)" style="font-weight:bold">SOS_main_smaller_roa</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m',33,0)">line 33</a>)
+assert False;
+} 
+SOS_main_smaller_roa
+
+ans =
+
+   (1,1)     -2.3283e-10
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('assert')" style="font-weight:bold">assert</a>
+The condition input argument must be a scalar logical.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SOS_main_smaller_roa', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m', 33)" style="font-weight:bold">SOS_main_smaller_roa</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m',33,0)">line 33</a>)
+assert False;
+} 
+SOS_main_smaller_roa
+
+ans =
+
+   (1,1)     -2.3283e-10
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('assert')" style="font-weight:bold">assert</a>
+The condition input argument must be a scalar logical.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SOS_main_smaller_roa', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m', 33)" style="font-weight:bold">SOS_main_smaller_roa</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m',33,0)">line 33</a>)
+assert False;
+} 
+SOS_main_smaller_roa
+
+ans =
+
+   (1,1)     -2.3283e-10
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('assert')" style="font-weight:bold">assert</a>
+The condition input argument must be a scalar logical.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SOS_main_smaller_roa', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m', 33)" style="font-weight:bold">SOS_main_smaller_roa</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m',33,0)">line 33</a>)
+assert False;
+} 
+SOS_main_smaller_roa
+
+ans =
+
+   (1,1)      2.3283e-10
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('assert')" style="font-weight:bold">assert</a>
+The condition input argument must be a scalar logical.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SOS_main_smaller_roa', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m', 33)" style="font-weight:bold">SOS_main_smaller_roa</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m',33,0)">line 33</a>)
+assert False;
+} 
+SOS_main_smaller_roa
+
+ans =
+
+   (1,1)     -2.3283e-10
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('assert')" style="font-weight:bold">assert</a>
+The condition input argument must be a scalar logical.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SOS_main_smaller_roa', '/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m', 33)" style="font-weight:bold">SOS_main_smaller_roa</a> (<a href="matlab: opentoline('/Users/OstensiblyOwen/files/School/College/Second Year/math 568/final project/code/region_of_attraction/SOS_main_smaller_roa.m',33,0)">line 33</a>)
+assert False;
+} 
+ls
+SOS.mat				matfiles
+SOS_main.m			matlab.mat
+SOS_main.mat			mss_from_polyval.m
+SOS_main_smaller_roa.m		mvar.m
+SOS_neuron.m			nvar.m
+SOS_neuron.m~			plots_for_paper.m
+SOS_vdp.m			plots_for_paper_small_roa.m
+This one works.fig		scaled_dynamics.m
+compare_dynamics.m		setup.m
+easy.fig			sim_model.m
+easy.png			test_sim.m
+gen_msspoly_HH.m		test_sim.m~
+gen_poly_HH.m			test_vdp.m
+gsyns.mat			tvar.m
+iapp_var.m			v_coord_change.m
+log.txt				v_inv_change.m
+main.m				vdp.mat
+main.m~				vvar.m
+
+cd ..
+ls
+2d_HH			mosek			roa.tar
+2d_HH_poly		ping_probs.tar		spotless
+find_problems		ping_tests		spotless_utils
+find_probs.tar		region_of_attraction	su.tar
+
+cd 2d_HH_poly
+ls
+HH_orig.m		fi_plots_2d.m		plot_minfs.m
+README.md		figs			plot_onset.m
+SOS_neuron.m		gen_poly_HH.m		plots_3d.m
+SOS_neuron_2.m		gen_poly_HH_2d.m	plotting_experiments.m
+SOS_neuron_3.m		matfiles		setup.m
+SOS_neuron_4.m		naive_polyfit.m		sim_model.m
+f_for_i.m		naive_polyfit_2d.m	spiketrace.m
+fi_curve.m		odefun_poly.m		trying_some_things.m
+fi_plots.m		odefun_poly_2d.m
+
+open fi_plots
+fi_plots
+
+ans =
+
+    1.0000         0         0
+    2.0000    0.0553         0
+    3.0000    0.1106         0
+    4.0000    0.1658         0
+    5.0000    0.2211         0
+    6.0000    0.2764         0
+    7.0000    0.3317         0
+    8.0000    0.3869         0
+    9.0000    0.4422         0
+   10.0000    0.4975         0
+   11.0000    0.5528         0
+   12.0000    0.6080         0
+   13.0000    0.6633         0
+   14.0000    0.7186         0
+   15.0000    0.7739         0
+   16.0000    0.8291         0
+   17.0000    0.8844         0
+   18.0000    0.9397         0
+   19.0000    0.9950         0
+   20.0000    1.0503         0
+   21.0000    1.1055         0
+   22.0000    1.1608         0
+   23.0000    1.2161         0
+   24.0000    1.2714         0
+   25.0000    1.3266         0
+   26.0000    1.3819         0
+   27.0000    1.4372         0
+   28.0000    1.4925         0
+   29.0000    1.5477         0
+   30.0000    1.6030         0
+   31.0000    1.6583         0
+   32.0000    1.7136         0
+   33.0000    1.7688         0
+   34.0000    1.8241         0
+   35.0000    1.8794         0
+   36.0000    1.9347         0
+   37.0000    1.9899         0
+   38.0000    2.0452         0
+   39.0000    2.1005         0
+   40.0000    2.1558         0
+   41.0000    2.2111         0
+   42.0000    2.2663         0
+   43.0000    2.3216         0
+   44.0000    2.3769         0
+   45.0000    2.4322         0
+   46.0000    2.4874         0
+   47.0000    2.5427         0
+   48.0000    2.5980         0
+   49.0000    2.6533         0
+   50.0000    2.7085         0
+   51.0000    2.7638         0
+   52.0000    2.8191         0
+   53.0000    2.8744         0
+   54.0000    2.9296         0
+   55.0000    2.9849         0
+   56.0000    3.0402         0
+   57.0000    3.0955         0
+   58.0000    3.1508         0
+   59.0000    3.2060         0
+   60.0000    3.2613         0
+   61.0000    3.3166         0
+   62.0000    3.3719         0
+   63.0000    3.4271         0
+   64.0000    3.4824         0
+   65.0000    3.5377         0
+   66.0000    3.5930         0
+   67.0000    3.6482         0
+   68.0000    3.7035         0
+   69.0000    3.7588         0
+   70.0000    3.8141         0
+   71.0000    3.8693         0
+   72.0000    3.9246         0
+   73.0000    3.9799         0
+   74.0000    4.0352         0
+   75.0000    4.0905         0
+   76.0000    4.1457         0
+   77.0000    4.2010         0
+   78.0000    4.2563         0
+   79.0000    4.3116         0
+   80.0000    4.3668         0
+   81.0000    4.4221         0
+   82.0000    4.4774         0
+   83.0000    4.5327         0
+   84.0000    4.5879         0
+   85.0000    4.6432         0
+   86.0000    4.6985         0
+   87.0000    4.7538         0
+   88.0000    4.8090         0
+   89.0000    4.8643         0
+   90.0000    4.9196         0
+   91.0000    4.9749         0
+   92.0000    5.0302         0
+   93.0000    5.0854         0
+   94.0000    5.1407         0
+   95.0000    5.1960         0
+   96.0000    5.2513         0
+   97.0000    5.3065         0
+   98.0000    5.3618         0
+   99.0000    5.4171         0
+  100.0000    5.4724         0
+  101.0000    5.5276         0
+  102.0000    5.5829         0
+  103.0000    5.6382         0
+  104.0000    5.6935         0
+  105.0000    5.7487         0
+  106.0000    5.8040         0
+  107.0000    5.8593         0
+  108.0000    5.9146         0
+  109.0000    5.9698         0
+  110.0000    6.0251         0
+  111.0000    6.0804         0
+  112.0000    6.1357         0
+  113.0000    6.1910         0
+  114.0000    6.2462         0
+  115.0000    6.3015         0
+  116.0000    6.3568         0
+  117.0000    6.4121         0
+  118.0000    6.4673         0
+  119.0000    6.5226         0
+  120.0000    6.5779         0
+  121.0000    6.6332         0
+  122.0000    6.6884         0
+  123.0000    6.7437         0
+  124.0000    6.7990         0
+  125.0000    6.8543         0
+  126.0000    6.9095         0
+  127.0000    6.9648         0
+  128.0000    7.0201         0
+  129.0000    7.0754         0
+  130.0000    7.1307         0
+  131.0000    7.1859         0
+  132.0000    7.2412         0
+  133.0000    7.2965         0
+  134.0000    7.3518         0
+  135.0000    7.4070         0
+  136.0000    7.4623         0
+  137.0000    7.5176         0
+  138.0000    7.5729         0
+  139.0000    7.6281         0
+  140.0000    7.6834         0
+  141.0000    7.7387         0
+  142.0000    7.7940         0
+  143.0000    7.8492         0
+  144.0000    7.9045         0
+  145.0000    7.9598         0
+  146.0000    8.0151         0
+  147.0000    8.0704         0
+  148.0000    8.1256         0
+  149.0000    8.1809         0
+  150.0000    8.2362         0
+  151.0000    8.2915         0
+  152.0000    8.3467         0
+  153.0000    8.4020         0
+  154.0000    8.4573         0
+  155.0000    8.5126         0
+  156.0000    8.5678         0
+  157.0000    8.6231         0
+  158.0000    8.6784         0
+  159.0000    8.7337         0
+  160.0000    8.7889         0
+  161.0000    8.8442         0
+  162.0000    8.8995         0
+  163.0000    8.9548         0
+  164.0000    9.0101         0
+  165.0000    9.0653         0
+  166.0000    9.1206         0
+  167.0000    9.1759         0
+  168.0000    9.2312         0
+  169.0000    9.2864         0
+  170.0000    9.3417         0
+  171.0000    9.3970         0
+  172.0000    9.4523         0
+  173.0000    9.5075   64.0686
+  174.0000    9.5628   64.3022
+  175.0000    9.6181   64.5080
+  176.0000    9.6734   64.6080
+  177.0000    9.7286   64.9508
+  178.0000    9.7839   65.0473
+  179.0000    9.8392   65.1917
+  180.0000    9.8945   65.3812
+  181.0000    9.9497   65.6348
+  182.0000   10.0050   65.7105
+  183.0000   10.0603   65.8757
+  184.0000   10.1156   66.1431
+  185.0000   10.1709   66.3335
+  186.0000   10.2261   66.4205
+  187.0000   10.2814   66.6672
+  188.0000   10.3367   66.7133
+  189.0000   10.3920   66.9456
+  190.0000   10.4472   67.1454
+  191.0000   10.5025   67.2360
+  192.0000   10.5578   67.4557
+  193.0000   10.6131   67.5907
+  194.0000   10.6683   67.7291
+  195.0000   10.7236   67.9318
+  196.0000   10.7789   68.0216
+  197.0000   10.8342   68.2384
+  198.0000   10.8894   68.3889
+  199.0000   10.9447   68.5827
+  200.0000   11.0000   68.6751
+  201.0000   11.0000   68.6246
+  202.0000   12.0000   71.1987
+  203.0000   13.0000   73.5028
+  204.0000   14.0000   75.5192
+  205.0000   15.0000   77.4601
+  206.0000   16.0000   79.2705
+  207.0000   17.0000   81.0224
+  208.0000   18.0000   82.6649
+  209.0000   19.0000   84.2187
+  210.0000   20.0000   85.7080
+  211.0000   21.0000   87.1606
+  212.0000   22.0000   88.5145
+  213.0000   23.0000   89.8791
+  214.0000   24.0000   91.1655
+  215.0000   25.0000   92.4211
+  216.0000   26.0000   93.6309
+  217.0000   27.0000   94.8352
+  218.0000   28.0000   95.9581
+  219.0000   29.0000   97.1073
+  220.0000   30.0000   98.2074
+  221.0000   31.0000   99.2833
+  222.0000   32.0000  100.3341
+  223.0000   33.0000  101.3548
+  224.0000   34.0000  102.3750
+  225.0000   35.0000  103.3615
+  226.0000   36.0000  104.3328
+  227.0000   37.0000  105.2909
+  228.0000   38.0000  106.1912
+  229.0000   39.0000  107.1324
+  230.0000   40.0000  108.0329
+  231.0000   41.0000  108.9048
+  232.0000   42.0000  109.7863
+  233.0000   43.0000  110.6364
+  234.0000   44.0000  111.4863
+  235.0000   45.0000  112.3011
+  236.0000   46.0000  113.1244
+  237.0000   47.0000  113.9336
+  238.0000   48.0000  114.7310
+  239.0000   49.0000  115.5427
+  240.0000   50.0000  116.3000
+  241.0000   51.0000  117.0639
+  242.0000   52.0000  117.8009
+  243.0000   53.0000  118.5769
+  244.0000   54.0000  119.3742
+  245.0000   55.0000  120.0123
+  246.0000   56.0000  120.7419
+  247.0000   57.0000  121.5152
+  248.0000   58.0000  122.2491
+  249.0000   59.0000  122.8509
+  250.0000   60.0000  123.5724
+
+
+ans =
+
+  -65.3606    0.3901    0.0883
+
+fi_plots
+
+ans =
+
+    1.0000         0         0
+    2.0000    0.0553         0
+    3.0000    0.1106         0
+    4.0000    0.1658         0
+    5.0000    0.2211         0
+    6.0000    0.2764         0
+    7.0000    0.3317         0
+    8.0000    0.3869         0
+    9.0000    0.4422         0
+   10.0000    0.4975         0
+   11.0000    0.5528         0
+   12.0000    0.6080         0
+   13.0000    0.6633         0
+   14.0000    0.7186         0
+   15.0000    0.7739         0
+   16.0000    0.8291         0
+   17.0000    0.8844         0
+   18.0000    0.9397         0
+   19.0000    0.9950         0
+   20.0000    1.0503         0
+   21.0000    1.1055         0
+   22.0000    1.1608         0
+   23.0000    1.2161         0
+   24.0000    1.2714         0
+   25.0000    1.3266         0
+   26.0000    1.3819         0
+   27.0000    1.4372         0
+   28.0000    1.4925         0
+   29.0000    1.5477         0
+   30.0000    1.6030         0
+   31.0000    1.6583         0
+   32.0000    1.7136         0
+   33.0000    1.7688         0
+   34.0000    1.8241         0
+   35.0000    1.8794         0
+   36.0000    1.9347         0
+   37.0000    1.9899         0
+   38.0000    2.0452         0
+   39.0000    2.1005         0
+   40.0000    2.1558         0
+   41.0000    2.2111         0
+   42.0000    2.2663         0
+   43.0000    2.3216         0
+   44.0000    2.3769         0
+   45.0000    2.4322         0
+   46.0000    2.4874         0
+   47.0000    2.5427         0
+   48.0000    2.5980         0
+   49.0000    2.6533         0
+   50.0000    2.7085         0
+   51.0000    2.7638         0
+   52.0000    2.8191         0
+   53.0000    2.8744         0
+   54.0000    2.9296         0
+   55.0000    2.9849         0
+   56.0000    3.0402         0
+   57.0000    3.0955         0
+   58.0000    3.1508         0
+   59.0000    3.2060         0
+   60.0000    3.2613         0
+   61.0000    3.3166         0
+   62.0000    3.3719         0
+   63.0000    3.4271         0
+   64.0000    3.4824         0
+   65.0000    3.5377         0
+   66.0000    3.5930         0
+   67.0000    3.6482         0
+   68.0000    3.7035         0
+   69.0000    3.7588         0
+   70.0000    3.8141         0
+   71.0000    3.8693         0
+   72.0000    3.9246         0
+   73.0000    3.9799         0
+   74.0000    4.0352         0
+   75.0000    4.0905         0
+   76.0000    4.1457         0
+   77.0000    4.2010         0
+   78.0000    4.2563         0
+   79.0000    4.3116         0
+   80.0000    4.3668         0
+   81.0000    4.4221         0
+   82.0000    4.4774         0
+   83.0000    4.5327         0
+   84.0000    4.5879         0
+   85.0000    4.6432         0
+   86.0000    4.6985         0
+   87.0000    4.7538         0
+   88.0000    4.8090         0
+   89.0000    4.8643         0
+   90.0000    4.9196         0
+   91.0000    4.9749         0
+   92.0000    5.0302         0
+   93.0000    5.0854         0
+   94.0000    5.1407         0
+   95.0000    5.1960         0
+   96.0000    5.2513         0
+   97.0000    5.3065         0
+   98.0000    5.3618         0
+   99.0000    5.4171         0
+  100.0000    5.4724         0
+  101.0000    5.5276         0
+  102.0000    5.5829         0
+  103.0000    5.6382         0
+  104.0000    5.6935         0
+  105.0000    5.7487         0
+  106.0000    5.8040         0
+  107.0000    5.8593         0
+  108.0000    5.9146         0
+  109.0000    5.9698         0
+  110.0000    6.0251         0
+  111.0000    6.0804         0
+  112.0000    6.1357         0
+  113.0000    6.1910         0
+  114.0000    6.2462         0
+  115.0000    6.3015         0
+  116.0000    6.3568         0
+  117.0000    6.4121         0
+  118.0000    6.4673         0
+  119.0000    6.5226         0
+  120.0000    6.5779         0
+  121.0000    6.6332         0
+  122.0000    6.6884         0
+  123.0000    6.7437         0
+  124.0000    6.7990         0
+  125.0000    6.8543         0
+  126.0000    6.9095         0
+  127.0000    6.9648         0
+  128.0000    7.0201         0
+  129.0000    7.0754         0
+  130.0000    7.1307         0
+  131.0000    7.1859         0
+  132.0000    7.2412         0
+  133.0000    7.2965         0
+  134.0000    7.3518         0
+  135.0000    7.4070         0
+  136.0000    7.4623         0
+  137.0000    7.5176         0
+  138.0000    7.5729         0
+  139.0000    7.6281         0
+  140.0000    7.6834         0
+  141.0000    7.7387         0
+  142.0000    7.7940         0
+  143.0000    7.8492         0
+  144.0000    7.9045         0
+  145.0000    7.9598         0
+  146.0000    8.0151         0
+  147.0000    8.0704         0
+  148.0000    8.1256         0
+  149.0000    8.1809         0
+  150.0000    8.2362         0
+  151.0000    8.2915         0
+  152.0000    8.3467         0
+  153.0000    8.4020         0
+  154.0000    8.4573         0
+  155.0000    8.5126         0
+  156.0000    8.5678         0
+  157.0000    8.6231         0
+  158.0000    8.6784         0
+  159.0000    8.7337         0
+  160.0000    8.7889         0
+  161.0000    8.8442         0
+  162.0000    8.8995         0
+  163.0000    8.9548         0
+  164.0000    9.0101         0
+  165.0000    9.0653         0
+  166.0000    9.1206         0
+  167.0000    9.1759         0
+  168.0000    9.2312         0
+  169.0000    9.2864         0
+  170.0000    9.3417         0
+  171.0000    9.3970         0
+  172.0000    9.4523         0
+  173.0000    9.5075   64.0686
+  174.0000    9.5628   64.3022
+  175.0000    9.6181   64.5080
+  176.0000    9.6734   64.6080
+  177.0000    9.7286   64.9508
+  178.0000    9.7839   65.0473
+  179.0000    9.8392   65.1917
+  180.0000    9.8945   65.3812
+  181.0000    9.9497   65.6348
+  182.0000   10.0050   65.7105
+  183.0000   10.0603   65.8757
+  184.0000   10.1156   66.1431
+  185.0000   10.1709   66.3335
+  186.0000   10.2261   66.4205
+  187.0000   10.2814   66.6672
+  188.0000   10.3367   66.7133
+  189.0000   10.3920   66.9456
+  190.0000   10.4472   67.1454
+  191.0000   10.5025   67.2360
+  192.0000   10.5578   67.4557
+  193.0000   10.6131   67.5907
+  194.0000   10.6683   67.7291
+  195.0000   10.7236   67.9318
+  196.0000   10.7789   68.0216
+  197.0000   10.8342   68.2384
+  198.0000   10.8894   68.3889
+  199.0000   10.9447   68.5827
+  200.0000   11.0000   68.6751
+  201.0000   11.0000   68.6246
+  202.0000   12.0000   71.1987
+  203.0000   13.0000   73.5028
+  204.0000   14.0000   75.5192
+  205.0000   15.0000   77.4601
+  206.0000   16.0000   79.2705
+  207.0000   17.0000   81.0224
+  208.0000   18.0000   82.6649
+  209.0000   19.0000   84.2187
+  210.0000   20.0000   85.7080
+  211.0000   21.0000   87.1606
+  212.0000   22.0000   88.5145
+  213.0000   23.0000   89.8791
+  214.0000   24.0000   91.1655
+  215.0000   25.0000   92.4211
+  216.0000   26.0000   93.6309
+  217.0000   27.0000   94.8352
+  218.0000   28.0000   95.9581
+  219.0000   29.0000   97.1073
+  220.0000   30.000
